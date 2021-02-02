@@ -122,7 +122,6 @@ ul {
 
 .features-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -132,5 +131,38 @@ ul {
 .features-text {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+
+.activities-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-positions {
+  font-size: 16px;
+  line-height: 1.19px;
   letter-spacing: 0.03em;
 }
