@@ -190,3 +190,18 @@ ul {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
+
+/* Наши работы */
+
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
