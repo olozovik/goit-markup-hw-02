@@ -141,7 +141,7 @@ a {
 
 /* Features */
 
-.features-title {
+.benefits-item-title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
@@ -149,7 +149,7 @@ a {
   text-transform: uppercase;
 }
 
-.features-text {
+.benefits-item-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
