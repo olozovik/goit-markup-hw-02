@@ -30,7 +30,7 @@ ul {
   list-style: none;
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ ul {
 
 .logo {
   color: #000000;
-  font-family: Raleway, serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -49,9 +49,23 @@ ul {
   color: var(--accent-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Menu */
 
-.menu .link {
+.menu-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -59,12 +73,16 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.menu .link:hover,
-.menu .link:focus {
+.current {
   color: var(--accent-color);
 }
 
-.header-contacts .link {
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-link {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -72,8 +90,8 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.header-contacts .link:hover,
-.header-contacts .link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
 }
 
