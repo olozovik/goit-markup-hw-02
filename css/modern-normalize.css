@@ -6,8 +6,10 @@ Document
 */
 
 /**
-Use a better box model (opinionated).
+Use a better box model (opinionated). 
+Я изменил. Добавил в <html>, а в * поставил наследование
 */
+
 html {
   box-sizing: border-box;
 }
